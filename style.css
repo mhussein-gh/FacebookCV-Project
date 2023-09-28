@@ -8,6 +8,7 @@ body{
   width: 1200px;
   margin: 0 auto;
   font-family: Arial, Helvetica, sans-serif;
+  background: black;
 }
 
 .header{
@@ -16,14 +17,17 @@ body{
   align-items: center;
   background: white;
   height: 50px;
-  padding: 2px 30px;
-  border: 1px red solid;
+  padding: 2px 45px;
 }
 
 .left-header{
   display: flex;
   gap: 8px;
   align-items: center;
+}
+
+.facebook-logo{
+  cursor: pointer;
 }
 
 .header-search-bar{
@@ -70,7 +74,7 @@ input[type='search']{
   background: rgb(223, 241, 253);
   height: 40px;
   border-radius: 60px;
-  padding: 2px 8px 2px 4px;
+  padding: 2px 10px 2px 4px;
   gap: 8px;
   transition: 0.8s;
 }
@@ -85,4 +89,70 @@ input[type='search']{
 .username{
   font-size: 12px;
   color: rgb(131, 131, 131);
+  cursor: pointer;
+}
+
+/* ------------------------ */
+
+.main{
+  display: flex;
+  gap: 25px;
+  padding: 17px 40px;
+  background: rgb(235, 235, 235);
+  height: 100%;
+}
+
+.left-main{
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  width: 250px;
+  gap: 20px;
+}
+
+.btm-left, .top-left{
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 10px;
+  padding: 16px 16px;
+  gap: 6px;
+  font-size: 12px;
+  color: rgb(170, 170, 170);
+}
+
+.top-left{
+  height: 420px;
+}
+
+.btm-left{
+  height: 140px;
+}
+
+
+.left-heading{
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  padding-bottom: 5px;
+}
+
+.right-main{
+  display: flex;
+  flex-direction: column;
+  height: 860px;
+  width: 100%;
+  gap: 20px;
+}
+
+.about{
+  background: white;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.experience{
+  background: white;
+  height: 400px;
+  border-radius: 10px;
 }
