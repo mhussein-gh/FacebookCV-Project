@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 1200px;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  height: 50px;
+  padding: 2px 30px;
+  border: 1px red solid;
+}
+
+.left-header{
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.header-search-bar{
+  height: 30px;
+  font-size: 14px;
+  border-radius: 15px;
+  padding-left: 36px;
+  border: none;
+  background: rgb(235, 235, 235);
+}
+
+input[type='search']{
+  background-position: 2% 50%;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-image: url('search.png');
+}
+
+.facebook-logo{
+  height: 40px;
+}
+
+/* --------------------- */
+
+.right-header{
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.header-img{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.name{
+  display: flex;
+  align-items: center;
+  color: rgb(24, 119, 242);
+  font-weight: bold;
+  background: rgb(223, 241, 253);
+  height: 40px;
+  border-radius: 60px;
+  padding: 2px 8px 2px 4px;
+  gap: 8px;
+  transition: 0.8s;
+}
+
+.name:hover{
+  transition: 0.8s;
+  background: rgb(187, 228, 255);
+  cursor: pointer;
+  padding: 10px 30px;
+}
+
+.username{
+  font-size: 12px;
+  color: rgb(131, 131, 131);
+}
